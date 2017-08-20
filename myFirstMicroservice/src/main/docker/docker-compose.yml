@@ -10,7 +10,7 @@ services:
   networks:
    - net1
  service:  
-  image: getmub/todo:v2
+  image: myfirstms:0.0.1-SNAPSHOT
   container_name: spring-demo-service
   depends_on:
     - mymongo
