@@ -15,7 +15,7 @@ services:
   depends_on:
     - mymongo
   ports:
-    - "8090:8080"   
+    - "8080:8080"   
   networks:
    - net1
 volumes:
